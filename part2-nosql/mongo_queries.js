@@ -1,4 +1,4 @@
-// OP1: insertMany() — insert all 3 documents from sample_documents.json
+// OP1: insertMany()
 db.products.insertMany([
   {
     product_id: 1,
@@ -32,29 +32,26 @@ db.products.insertMany([
   }
 ]);
 
-// OP2: find() — retrieve all Electronics products with price > 20000
+// OP2: find() — Electronics with price > 20000
 db.products.find({
   category: "Electronics",
   price: { $gt: 20000 }
 });
 
-
-// OP3: find() — retrieve all Groceries expiring before 2025-01-01
+// OP3: find() — Groceries expiring before 2025-01-01
 db.products.find({
   category: "Groceries",
   expiry_date: { $lt: ISODate("2025-01-01") }
 });
 
-
-// OP4: updateOne() — add discount_percent field to a specific product
+// OP4: updateOne() — add discount_percent
 db.products.updateOne(
   { product_id: 1 },
   { $set: { discount_percent: 10 } }
 );
 
-
-// OP5: createIndex() — create an index on category field
+// OP5: createIndex()
 db.products.createIndex({ category: 1 });
 
-// Reason: Index on category improves query performance when filtering
-// products by category such as Electronics, Clothing, or Groceries.
+// Reason:
+// Index on category improves query performance when filtering products by category.
