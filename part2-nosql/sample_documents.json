@@ -23,7 +23,9 @@
     "category": "Groceries",
     "price": 60,
     "brand": "Amul",
-    "expiry_date": "2024-12-25",
+    "expiry_date": {
+      "$date": "2024-12-25T00:00:00Z"
+    },
     "nutrition": {
       "protein": "3g",
       "fat": "3.5g"
