@@ -1,13 +1,15 @@
 -- Q1: Total sales revenue by product category for each month
 
 SELECT
+    d.year,
     d.month,
     p.category,
     SUM(f.revenue) AS total_revenue
 FROM fact_sales f
 JOIN dim_date d ON f.date_id = d.date_id
 JOIN dim_product p ON f.product_id = p.product_id
-GROUP BY d.month, p.category;
+GROUP BY d.year, d.month, p.category
+ORDER BY d.year, d.month, p.category;
 
 
 
@@ -27,9 +29,10 @@ LIMIT 2;
 -- Q3: Month-over-month sales trend across all stores
 
 SELECT
+    d.year,
     d.month,
     SUM(f.revenue) AS monthly_sales
 FROM fact_sales f
 JOIN dim_date d ON f.date_id = d.date_id
-GROUP BY d.month
-ORDER BY d.month;
+GROUP BY d.year, d.month
+ORDER BY d.year, d.month;
