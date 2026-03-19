@@ -1,3 +1,10 @@
+DROP DATABASE IF EXISTS assignment02;
+
+SHOW DATABASES;
+
+CREATE DATABASE IF NOT EXISTS assignment02;
+
+USE assignment02;
 -- Create Dimension Table: dim_date
 CREATE TABLE dim_date (
     date_id INT PRIMARY KEY,
