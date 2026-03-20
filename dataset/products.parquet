@@ -1,1 +1,74 @@
-
+PAR1ÐÀLÈ   è $   LI0001
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+d 1d 1d 1d 1d 1d 1d 1d 1d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 3d 3d 3d 3d 3d 3d 3d 3d 3d 3d 4d 4d 4d 4d 4d 4d 4d 4d 4d 4d 5d 5d 5d 5d 5d 5d 5d 5d 5d 5d 6d 6d 6d 6d 6d 6d 6d 6d 6d 6d 7d 7d 7d 7d 7d 7d 7d 7d 7d 7d 8d 8d 8d 8d 8d 8d 8d 8d 8d 8d 9d 9d 9d93q> 9d 9d 9d 9d 9d,99   LI0100 ÈÎ,È6 (LI0100LI0001   dðc   È €€`@(ˆ„bÁh8ˆdB©X.˜ŒfÃéx> hD*™N¨”jÅj¹^°˜lF«Ùn¸œnÇëù~À pH,È¤rÉl:ŸÐ¨tJ­Z¯Ø¬vËíz¿à°x   ê
+¬L~   µ(    ORD2007
+ 5
+7190
+89
+54
+35
+ 11678
+ 6c 9c 2
+ 6B43702
+ 7! 1 9, 8
+ 3y 0 8„» 9, 1
+ 47 4y 5y 1M 6 2,109? 006¥86ç 5
+ 4¥ 7c 694 1c 3 4
+ 9M 8B 29Î 1c 07 3¥ 2! 29 9M 99 9X 87 67 6 2c 5Æ 4X036    ORD2026 ®´,È6 ( ORD2100 ORD2001   WðV   È@ Da r$ÊÂ4ÎEÒD•ua™flœQt‡÷¡Œ‹D*¥y>hª‚D+ËQ{nî‰¾p«TY,ÏtÝÚw†—¹¾óEOeÃ@û    hL   P   PR02
+ 7
+ 5
+ 3
+ 1	10	09
+ 8
+ 4   PR06 z€,È6 (PR10PR01   =ð<   È25&‡„g€’@s0CQ•”VY5wiu@a%˜W	)9QpuuT3ef†  ÈÐL   ¤ð>   Cotton Kurti   Yoga Mat
+   Python Book   Basmati Rice 5kgð`Wireless Earbuds
+   Denim Jeans   Mechanical Keyboard	   Face Wash
+   Running Shoes	   Desk Lamp z€,È6 (Yoga MatBasmati Rice 5kg   =ð<   È25&‡„g€’@s0CQ•”VY5wiu@a%˜W	)9QpuuT3ef†  ÈÌL   dðI   Clothing   Sports   Books    Grocery
+   Electronics
+   Personal CareJTFootwear
+   Home Decor `d,È6 (SportsBooks   0¼   ÈˆF`TíÐF	
+:¸bÉàOÖž
+†_× Šˆ4$
+ P@L
+   ( 	 	  
+<               `d,È               (                 0¼   È4Œ¶‰2@C2.@D€@B1P¨M €$$2BcAIÀ¡‰›  tL   Pƒ »  
+Â	Ã		?	÷	 +
+ <ã      ¯       z€,È÷      +       (÷      +         =ð<   È25&‡„g€’@s0CQ•”VY5wiu@a%˜W	)9QpuuT3ef†  Ð¸LZ   è »  |	„	I		;	 	ÓY	 
+0 V
+H©&	1	Ï0	Œ3	 ã
+h ƒ
+8 ÷
+`‰
+	  
+`]		¼	 Ã
+F	 ×
+Â	 ì
+@†	§
+	ü	k	¯	 ~
+ˆ?	 v
+P Ê
+¸ 
+  
+-(î#	( ¬
+@›	 +
+€ÜG	<å5      o@       ®´,ÈÓY      +       (ÓY      +         WðV   È@ DaH¢,
+Ó8¤D’#LTY&eš–m\×y `}è…ŽŽ
+YšÐ€Dê|¤QM%ú(_žFÚtcf¨ £pëj²   œ5 schema %line_item_id% L   %order_id% L   %
+product_id% L   %product_name% L   %category% L   %quantity %
+unit_price %
+total_price ÈŒ& 5 line_item_idÈŽ„	&ê&6 (LI0100LI0001 ,    <°	& È   & 5 order_idÈ
+Ø&Ø
+&Œ	6 ( ORD2100 ORD2001 ,    <ø
+& È   & 5 
+product_idÈ‚Ð&ê&ä6 (PR10PR01 ,    < & È   & 5 product_nameÈÌÚ&¤&´6 (Yoga MatBasmati Rice 5kg ,    <î& È   & 5 categoryÈ–ž&ú&Ž6 (SportsBooks ,    <Î
+& È   & 5 quantityÈÌÀ&ˆ&¬               (               ,    <)& È   & 5 
+unit_priceÈº”&þ&ì÷      +       (÷      +       ,    <)& È   & 5 
+total_priceÈ¢&Ø#&€ ÓY      +       (ÓY      +       ,    <)& È   ª8È&ˆ& ,pandas¾{"index_columns": [], "column_indexes": [], "columns": [{"name": "line_item_id", "field_name": "line_item_id", "pandas_type": "object", "numpy_type": "str", "metadata": null}, {"name": "order_id", "field_name": "order_id", "pandas_type": "object", "numpy_type": "str", "metadata": null}, {"name": "product_id", "field_name": "product_id", "pandas_type": "object", "numpy_type": "str", "metadata": null}, {"name": "product_name", "field_name": "product_name", "pandas_type": "object", "numpy_type": "str", "metadata": null}, {"name": "category", "field_name": "category", "pandas_type": "object", "numpy_type": "str", "metadata": null}, {"name": "quantity", "field_name": "quantity", "pandas_type": "int64", "numpy_type": "int64", "metadata": null}, {"name": "unit_price", "field_name": "unit_price", "pandas_type": "int64", "numpy_type": "int64", "metadata": null}, {"name": "total_price", "field_name": "total_price", "pandas_type": "int64", "numpy_type": "int64", "metadata": null}], "attributes": {}, "creator": {"library": "pyarrow", "version": "23.0.1"}, "pandas_version": "3.0.1"} ARROW:schemaŒ/////2AGAAAQAAAAAAAKAA4ABgAFAAgACgAAAAABBAAQAAAAAAAKAAwAAAAEAAgACgAAAHQEAAAEAAAAAQAAAAwAAAAIAAwABAAIAAgAAABMBAAABAAAAD4EAAB7ImluZGV4X2NvbHVtbnMiOiBbXSwgImNvbHVtbl9pbmRleGVzIjogW10sICJjb2x1bW5zIjogW3sibmFtZSI6ICJsaW5lX2l0ZW1faWQiLCAiZmllbGRfbmFtZSI6ICJsaW5lX2l0ZW1faWQiLCAicGFuZGFzX3R5cGUiOiAib2JqZWN0IiwgIm51bXB5X3R5cGUiOiAic3RyIiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJvcmRlcl9pZCIsICJmaWVsZF9uYW1lIjogIm9yZGVyX2lkIiwgInBhbmRhc190eXBlIjogIm9iamVjdCIsICJudW1weV90eXBlIjogInN0ciIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAicHJvZHVjdF9pZCIsICJmaWVsZF9uYW1lIjogInByb2R1Y3RfaWQiLCAicGFuZGFzX3R5cGUiOiAib2JqZWN0IiwgIm51bXB5X3R5cGUiOiAic3RyIiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJwcm9kdWN0X25hbWUiLCAiZmllbGRfbmFtZSI6ICJwcm9kdWN0X25hbWUiLCAicGFuZGFzX3R5cGUiOiAib2JqZWN0IiwgIm51bXB5X3R5cGUiOiAic3RyIiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJjYXRlZ29yeSIsICJmaWVsZF9uYW1lIjogImNhdGVnb3J5IiwgInBhbmRhc190eXBlIjogIm9iamVjdCIsICJudW1weV90eXBlIjogInN0ciIsICJtZXRhZGF0YSI6IG51bGx9LCB7Im5hbWUiOiAicXVhbnRpdHkiLCAiZmllbGRfbmFtZSI6ICJxdWFudGl0eSIsICJwYW5kYXNfdHlwZSI6ICJpbnQ2NCIsICJudW1weV90eXBlIjogImludDY0IiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJ1bml0X3ByaWNlIiwgImZpZWxkX25hbWUiOiAidW5pdF9wcmljZSIsICJwYW5kYXNfdHlwZSI6ICJpbnQ2NCIsICJudW1weV90eXBlIjogImludDY0IiwgIm1ldGFkYXRhIjogbnVsbH0sIHsibmFtZSI6ICJ0b3RhbF9wcmljZSIsICJmaWVsZF9uYW1lIjogInRvdGFsX3ByaWNlIiwgInBhbmRhc190eXBlIjogImludDY0IiwgIm51bXB5X3R5cGUiOiAiaW50NjQiLCAibWV0YWRhdGEiOiBudWxsfV0sICJhdHRyaWJ1dGVzIjoge30sICJjcmVhdG9yIjogeyJsaWJyYXJ5IjogInB5YXJyb3ciLCAidmVyc2lvbiI6ICIyMy4wLjEifSwgInBhbmRhc192ZXJzaW9uIjogIjMuMC4xIn0AAAYAAABwYW5kYXMAAAgAAACIAQAASAEAABgBAADkAAAAtAAAAHQAAAA8AAAABAAAAKj+//8AAAECEAAAABwAAAAEAAAAAAAAAAsAAAB0b3RhbF9wcmljZQCY////AAAAAUAAAADc/v//AAABAhAAAAAcAAAABAAAAAAAAAAKAAAAdW5pdF9wcmljZQAAzP///wAAAAFAAAAAEP///wAAAQIQAAAAJAAAAAQAAAAAAAAACAAAAHF1YW50aXR5AAAAAAgADAAIAAcACAAAAAAAAAFAAAAATP///wAAARQQAAAAHAAAAAQAAAAAAAAACAAAAGNhdGVnb3J5AAAAADj///94////AAABFBAAAAAgAAAABAAAAAAAAAAMAAAAcHJvZHVjdF9uYW1lAAAAAGj///+o////AAABFBAAAAAcAAAABAAAAAAAAAAKAAAAcHJvZHVjdF9pZAAAlP///9T///8AAAEUEAAAABwAAAAEAAAAAAAAAAgAAABvcmRlcl9pZAAAAADA////EAAUAAgABgAHAAwAAAAQABAAAAAAAAEUEAAAACQAAAAEAAAAAAAAAAwAAABsaW5lX2l0ZW1faWQAAAAABAAEAAQAAAA=  parquet-cpp-arrow version 23.0.1Œ                   PAR1
