@@ -1,57 +1,48 @@
 ## Q1: List all customers along with the total number of orders they have placed
 
-duckdb.query("""
-
 SELECT
-   c.name,
+   c.customer_id,
     COUNT(o.order_id) AS total_orders
-FROM read_csv_auto('/customers.csv') c
-LEFT JOIN read_json_auto('/orders.json') o
+FROM read_csv_auto('datasets/customers.csv') c
+LEFT JOIN read_json_auto('datasets/orders.json') o
 ON c.customer_id = o.customer_id
-GROUP BY c.customer_id, c.name;
-""").df()
+GROUP BY c.customer_id;
+
 
 
 
 -- Q2: Find the top 3 customers by total order value
 
-duckdb.query("""
-  
 SELECT 
   c.name,
   SUM(o.total_amount) AS total_value
-FROM read_csv_auto('/customers.csv') c
-JOIN read_json_auto('/orders.json') o
+FROM read_csv_auto('datasets/customers.csv') c
+JOIN read_json_auto('datasets/orders.json') o
 ON c.customer_id = o.customer_id
 GROUP BY c.name
 ORDER BY total_value DESC
 LIMIT 3;
- """).df()
   
-
 
 -- Q3: List all products purchased by customers from Bangalore 
-  
-duckdb.query("""  
+   
 SELECT DISTINCT
    p.product_name
-FROM read_csv_auto('/customers.csv') c
-JOIN read_json_auto('/orders.json') o
+FROM read_csv_auto('datasets/customers.csv') c
+JOIN read_json_auto('datasets/orders.json') o
 ON c.customer_id = o.customer_id
-JOIN read_parquet('/products.parquet') p
+JOIN read_parquet('datasets/products.parquet') p
 ON o.order_id = p.order_id
 WHERE c.city = 'Bangalore'
-""").df()
 
 
 -- Q4: Join all three files to show customer name, order date, product name, and quantity
 
-duckdb.query("""
+
 SELECT
   c.name, o.order_date, p.product_name, o.status
-FROM read_csv_auto('/customers.csv') c
-JOIN read_json_auto('/orders.json') o
+FROM read_csv_auto('datasets/customers.csv') c
+JOIN read_json_auto('datasets/orders.json') o
 ON c.customer_id = o.customer_id
-JOIN read_parquet('/products.parquet') p
+JOIN read_parquet('datasets/products.parquet') p
 ON o.order_id = p.order_id;
-""").df()
